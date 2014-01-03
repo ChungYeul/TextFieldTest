@@ -9,10 +9,18 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
 @implementation ViewController
+- (IBAction)dismissKeyboard:(id)sender {
+    [self.textField resignFirstResponder];
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    [self.textField becomeFirstResponder];
+}
 
 - (void)viewDidLoad
 {
