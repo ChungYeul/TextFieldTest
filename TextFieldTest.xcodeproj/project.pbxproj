@@ -21,6 +21,7 @@
 		001581FE1876A09F00193744 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001581E01876A09F00193744 /* UIKit.framework */; };
 		001582061876A09F00193744 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 001582041876A09F00193744 /* InfoPlist.strings */; };
 		001582081876A09F00193744 /* TextFieldTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 001582071876A09F00193744 /* TextFieldTestTests.m */; };
+		F85167B71879521F00CC2184 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85167B61879521F00CC2184 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		001582031876A09F00193744 /* TextFieldTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextFieldTestTests-Info.plist"; sourceTree = "<group>"; };
 		001582051876A09F00193744 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		001582071876A09F00193744 /* TextFieldTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldTestTests.m; sourceTree = "<group>"; };
+		F85167B51879521F00CC2184 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F85167B61879521F00CC2184 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				001581EE1876A09F00193744 /* Main.storyboard */,
 				001581F11876A09F00193744 /* ViewController.h */,
 				001581F21876A09F00193744 /* ViewController.m */,
+				F85167B51879521F00CC2184 /* SecondViewController.h */,
+				F85167B61879521F00CC2184 /* SecondViewController.m */,
 				001581F41876A09F00193744 /* Images.xcassets */,
 				001581E31876A09F00193744 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85167B71879521F00CC2184 /* SecondViewController.m in Sources */,
 				001581F31876A09F00193744 /* ViewController.m in Sources */,
 				001581ED1876A09F00193744 /* AppDelegate.m in Sources */,
 				001581E91876A09F00193744 /* main.m in Sources */,
@@ -460,6 +466,7 @@
 				0015820D1876A09F00193744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0015820E1876A09F00193744 /* Build configuration list for PBXNativeTarget "TextFieldTestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				001582101876A09F00193744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
